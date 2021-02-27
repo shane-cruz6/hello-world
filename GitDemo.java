@@ -4,6 +4,8 @@ Shane Cruz
 public class GitDemo {
     
     private double previousNumber;
+    private double reverseNum;
+
     
     public GitDemo() {
         previousNumber = 1;
@@ -42,16 +44,12 @@ public class GitDemo {
      *****/
     public double reverseNumber(int num){
         double newNumber = 1;
+        reverseNum = newNumber;
         
         for(int i = 1; i <= num; ++i){
             newNumber = newNumber * i;
         }
         
         return newNumber;
-    }
-
-
-    private double reverseNum(){
-        reverseNum = newNumber;
     }
 }
