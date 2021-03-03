@@ -33,7 +33,6 @@ public class GitDemo {
             factorialNumber = factorialNumber * 10 + temp;
             num /= 10;
         }
-        
         return factorialNumber;
     }
     
